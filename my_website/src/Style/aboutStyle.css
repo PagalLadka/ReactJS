@@ -1,0 +1,54 @@
+.body {
+    display: flex;
+}
+
+.left-content {
+    flex: 1;
+    height: calc(100vh - 5vh);
+    background-color: aquamarine;
+}
+
+.right-content {
+    flex: 1; 
+    height: calc(100vh - 5vh); /* Adjusting height based on your margin-top */
+    background-color: rgb(255, 172, 127);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5vh;
+}
+
+p {
+    margin-left: 4.5vw;
+    margin-right: 4.5vw;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+
+h2 {
+    margin-left: 4.5vw;
+    margin-top: 50px;
+}
+
+.list_cont {
+    display :flex;
+    background-color: red;
+}
+
+.list_exp {
+    flex : 1;
+    background-color: azure;
+    font-size: 22px;
+}
+
+.list_skill {
+    flex : 1;
+    background-color: beige;
+    font-size: 22px;
+}
+
+.additional-info {
+    font-size: 16px;
+}
